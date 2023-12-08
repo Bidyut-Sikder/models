@@ -27,16 +27,16 @@ const UserSchema = mongoose.Schema({
         type: String
     },
 
-} ,{
+}, {
     timestamps: true,
     versionKey: false
 
 })
 
 
-const UserModel = mongoose.model('user', UserSchema)
+const User = mongoose.model('user', UserSchema)
 
-module.exports = UserModel;
+module.exports = User;
 
 
 
